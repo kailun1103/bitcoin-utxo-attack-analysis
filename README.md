@@ -1,19 +1,3 @@
-bitcoin-utxo-attack-analysis/
-├── annotate_fee_rate.py
-├── compute_attack_metrics.py
-├── annotate_utxo_script_bytes.py
-├── script_address_classifier.py
-├── plot_dust_attack_byte_distribution.py
-├── plot_dust_attack_fee_rate_distribution.py
-├── plot_dust_attack_roi_trend.py
-├── plot_dust_attack_script_distribution.py
-├── boxplot_p2tr_redirect_attack_impact.py
-├── README.md
-├── LICENSE
-└── 2024_utxo/               # Dataset folder (partial contents due to GitHub size limits)
-    ├── utxo_txn_1.json     
-    └── ...
-
 ## Overview
 This repository contains a suite of Python scripts for analyzing and visualizing attack effects on Bitcoin UTXO transactions, with a focus on dust attacks. It was developed to support IEEE peer review and reproducible research in blockchain security.
 
